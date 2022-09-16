@@ -1,0 +1,20 @@
+ 
+@font-face{                                                                           
+ font-weight:400; font-style:normal; font-display:swap; font-family:'Noto Color Emoji';  
+ src: url('NotoColorEmoji.eot');                                                                
+ src: local('Noto Color Emoji')                                                          
+     ,local('NotoColorEmoji.ttf')                                                               
+     ,url('NotoColorEmoji.eot?#iefix')  format('embedded-opentype')                             
+     ,url('NotoColorEmoji.ttf')         format('truetype')                                      
+     ,url('NotoColorEmoji.otf')         format('opentype')                                      
+     ,url('NotoColorEmoji.woff2')       format('woff2')                                         
+     ,url('NotoColorEmoji.woff')        format('woff')                                          
+     ,url('NotoColorEmoji.svg#svg')     format('svg')                                           
+     ;                                                                                
+}                                                                                     
+/*★ 1st_font_webkit_gen - github.com/eladkarako ★*/                                   
+                                                                                      
+html, input, textarea{  /*for example...*/                                            
+  font-family: 'Noto Color Emoji', sans-serif;                                           
+}                                                                                     
+                                                                                      

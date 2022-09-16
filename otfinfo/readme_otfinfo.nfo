@@ -1,0 +1,25 @@
+'Otfinfo' reports information about an OpenType font to standard output.
+Options specify what information to print.
+
+Usage: otfinfo [-sfzpg | OPTIONS] [OTFFILES...]
+
+Query options:
+  -s, --scripts                Report font's supported scripts.
+  -f, --features               Report font's GSUB/GPOS features.
+  -z, --optical-size           Report font's optical size information.
+  -p, --postscript-name        Report font's PostScript name.
+  -a, --family                 Report font's family name.
+  -v, --font-version           Report font's version information.
+  -i, --info                   Report font's names and designer/vendor info.
+  -g, --glyphs                 Report font's glyph names.
+  -t, --tables                 Report font's OpenType tables.
+  -T, --dump-table NAME        Output font's 'NAME' table.
+
+Other options:
+      --script=SCRIPT[.LANG]   Set script used for --features [latn].
+  -V, --verbose                Print progress information to standard error.
+  -h, --help                   Print this message and exit.
+  -q, --quiet                  Do not generate any error messages.
+      --version                Print version number and exit.
+
+Report bugs to <ekohler@gmail.com>.

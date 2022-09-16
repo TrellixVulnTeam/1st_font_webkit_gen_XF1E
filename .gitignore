@@ -1,0 +1,16 @@
+*.co~
+*.ex~
+*.dl~
+*.exe.backup*
+*.dll.backup*
+
+*.pyc
+
+__pycache__
+
+
+
+.cache/*
+
+.spyder-py3/*
+
